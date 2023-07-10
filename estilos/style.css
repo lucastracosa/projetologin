@@ -32,9 +32,26 @@ section#login{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
+
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.149);
 
+}
+
+section#login > div#imagen{
+    display: block;
+    background: orange url(../imagens/nuvem.jpg) no-repeat;
+    background-size: cover;
+    height: 250px;
+
+
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
 }
