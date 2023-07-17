@@ -15,7 +15,7 @@
 
 body, html{
 
-    background-color: lightsteelblue;
+    background-color: orange;
     height: 100vh;
     width: 100vw;
 
@@ -49,7 +49,7 @@ section#login > div#imagen{
     display: block;
     background: orange url(../imagens/nuvem.jpg) no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 300px;
 
 
 }
@@ -57,4 +57,13 @@ section#login > div#imagen{
 section#login > div#formulario{
     display: block;
     padding: 10px;
+
 }
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;}
