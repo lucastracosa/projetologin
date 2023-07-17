@@ -11,12 +11,14 @@ tv: acima de 1200px
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /*configuração para tablet*/
 
     body{
         background-image: linear-gradient(to top,  lightsteelblue, orange);}
     
     section#login{
 width: 80vw;
+height: 280px ;
     }
 
     section#login > div#imagen{
@@ -34,19 +36,24 @@ width: 80vw;
 }
 
 @media screen and (min-width: 1000px) {
+    /*configurações desktop*/
 
     body{
         background-image: linear-gradient(to top,  lightsteelblue, orange);
+        
     }
 
     section#login{
         width: 950px;
+        height: 450px;
 
     }
     section#login > div#imagen{
         float: right;
         width: 50%;
         height: 100%;
+        background-position: center, center;
+        background-size: cover;
         
     }
 

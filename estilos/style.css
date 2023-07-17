@@ -11,12 +11,12 @@
 
 .material-symbols-outlined{
     font-weight: 500;
-    color: rgb(139, 103, 13);
+    color: orange;
 }
 
 .material-symbols-rounded{
     font-weight: 500;
-    color: rgb(139, 103, 13);
+    color: orange;
 
 }
 
@@ -42,18 +42,15 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
-
     background-color: white;
     width: 300px;
     height: 600px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.149);
-
     transition: width 0.2s, height 0.2s;
     transition-timing-function: ease;
-
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagen{
@@ -63,6 +60,9 @@ section#login > div#imagen{
     height: 300px;
 
 
+}
+form{
+    margin-top: 5px;
 }
 
 section#login > div#formulario{
@@ -95,11 +95,28 @@ form > input[type=submit]:hover{
     color: white;
 }
 div.campo > label{
-    display: none;
+    display: none;}
+
+div.campo > span {
+    font-size: 2em;
+    width: 40px;
+ 
+    padding: 5px;
+    
 }
+
+
 div > input{
-    width: 89%;
     height: 30px;
+    transform: translateY(-17px);
+    background-color: rgb(254, 254, 254);
+border: none;
+border-bottom: solid 0.5px orange;
+width: calc(100% - 45px);
+}
+
+div.campo > input:focus-within{
+    background-color: rgb(239, 245, 250);
 }
 
 form > div.campo{
@@ -132,4 +149,5 @@ form > a.boton:hover{
 form > a > span#mail{
     color: white;
     margin-left: 9px;
-position: absolute}
+position: absolute;
+transform: translateY(-3px);}
